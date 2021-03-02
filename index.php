@@ -20,38 +20,38 @@
 
         <div class="form-group row ml-4">
             <div class="form-group col-sm-4">
-                <label for="name" class="form-label">Name :</label>
+                <label class="form-label">Name :</label>
                 <input type="text" class="form-control" name="lname">
             </div>
             <div class="form-group col-sm-4">
-                <label for="firstname" class="form-label">Firstname :</label>
+                <label class="form-label">Firstname :</label>
                 <input type="text" class="form-control" name="firstname">
             </div>
         </div>
 
         <div class="form-group row">
             <div class="form-group col-sm-4">
-                <label for="address" class="form-label">Address :</label>
+                <label class="form-label">Address :</label>
                 <input type="text" class="form-control" name="address">
             </div>
             <div class="form-group col-sm-4">
-                <label for="postalcode" class="form-label">Postal Code :</label>
+                <label class="form-label">Postal Code :</label>
                 <input type="number" class="form-control" name="postalcode">
             </div>
         </div>
 
         <div class="form-group col-sm-4">
-            <label for="phonenumer" class="form-label">Phone number :</label>
+            <label class="form-label">Phone number :</label>
             <input type="number" class="form-control" name="phonenumer">
         </div>
 
         <div class="form-group col-sm-4">
-            <label for="email" class="form-label">Email :</label>
+            <label class="form-label">Email :</label>
             <input type="email" class="form-control" name="email">
         </div>
 
         <div class="form-group mt-3">
-            <label for="salutation" class="form-label">Salutation :</label>
+            <label class="form-label">Salutation :</label>
             <input type="text" class="form-control" list="civilityList" name="salutation">
             <datalist id="civilityList">
                 <option value="Mr">
@@ -60,22 +60,22 @@
         </div>
 
         <div class="form-group col-sm-4 mt-3">
-            <label for="password" class="form-label">Password :</label>
+            <label class="form-label">Password :</label>
             <input type="password" class="form-control" name="password" id="password">
         </div>
 
         <div class="form-group col-sm-4 mt-3">
-            <label for="confirmPassword" class="form-label">Confirm Password :</label>
+            <label class="form-label">Confirm Password :</label>
             <input type="password" class="form-control" name="confirmPassword" id="confirmPassword">
         </div>
 
         <div class="form-group col-sm-4">
-            <label for="login" class="form-label">Login :</label>
+            <label class="form-label">Login :</label>
             <input type="text" class="form-control" name="login">
         </div>
 
         <div class="form-group col-sm-4 mt-3 text-center">
-            <input type="submit" class="btn btn-secondary" value="Register"></button>
+            <input type="submit" class="btn btn-secondary" value="Register"/>
         </div>
 
     </form>
